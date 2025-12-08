@@ -3,7 +3,11 @@
   "displayName": "Swnb Palenight",
   "description": "A stylish Palenight theme for VS Code",
   "version": "0.0.1",
+  "license": "MIT",
   "publisher": "asyncrustacean",
+  "scripts": {
+    "package": "vsce package"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -22,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/asyncrustacean/swnb-palenight"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
   }
 }
